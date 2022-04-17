@@ -1,4 +1,1 @@
-- Use the arduino-upstream branch of [platformio/platform-espressif32](https://github.com/platformio/platform-espressif32/)
-- Use version 2.0.1 of [espressif/arduino-esp32](https://github.com/espressif/arduino-esp32)
-- Copy board config from [UnexpectedMaker/platform-espressif32](https://github.com/platformio/platform-espressif32/pull/694)
-- Changed board config to use `um_tinys2` variant. This gets us the LED pins and better USB descriptor
+Platformio doesn't, at the time of writing, support S2 boards out of the box yet without a few changes in [platformio.ini](/platformio.ini)
